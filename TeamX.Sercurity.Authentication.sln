@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamX.Sercurity.AuthServer", "TeamX.Sercurity.AuthServer\TeamX.Sercurity.AuthServer.csproj", "{93D6F044-DBEB-41C7-B3C2-A0103EA0682E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamX.Sercurity.AuthServer", "TeamX.Sercurity.AuthServer\TeamX.Sercurity.AuthServer.csproj", "{93D6F044-DBEB-41C7-B3C2-A0103EA0682E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamX.Sercurity.Client", "TeamX.Sercurity.Client\TeamX.Sercurity.Client.csproj", "{A24B77EC-A670-4AB3-8E55-134DF520EA91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamX.Sercurity.Client", "TeamX.Sercurity.Client\TeamX.Sercurity.Client.csproj", "{A24B77EC-A670-4AB3-8E55-134DF520EA91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamX.Sercurity.API", "TeamX.Sercurity.API\TeamX.Sercurity.API.csproj", "{A7265A1F-9F1D-453C-88AE-B304BBC3B97A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A24B77EC-A670-4AB3-8E55-134DF520EA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A24B77EC-A670-4AB3-8E55-134DF520EA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A24B77EC-A670-4AB3-8E55-134DF520EA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7265A1F-9F1D-453C-88AE-B304BBC3B97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7265A1F-9F1D-453C-88AE-B304BBC3B97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7265A1F-9F1D-453C-88AE-B304BBC3B97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7265A1F-9F1D-453C-88AE-B304BBC3B97A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

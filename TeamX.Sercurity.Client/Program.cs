@@ -31,7 +31,21 @@ namespace TeamX.Security.Client
             }
 
             Console.WriteLine(response.Json);
+            Console.WriteLine("\n\n");
 
+            // call api
+            var client = new HttpClient();
+            client.SetBearerToken(response.AccessToken);
+
+            var apiResponse = await client.GetAsync("http://localhost:5001/identity");
+
+            if(!apiResponse.IsSuccessStatusCode)
+                Console.WriteLine(apiResponse.StatusCode);
+            else
+            {
+                var content = await apiResponse.Content.ReadAsStringAsync();
+                Console.WriteLine(JArray.Parse(content));
+            }
         }
 
     }
